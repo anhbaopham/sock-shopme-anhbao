@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>--Trang chủ--</title>
+    <title>--Trang chủ--Shopme</title>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
       rel="stylesheet"
@@ -22,33 +22,41 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="../font-awesome-6.5.1-pro-full/css/all.css" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="100x100"
+      href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20width%3D%2240%22%20height%3D%2240%22%20aria-label%3D%22Shopme%22%3E%0A%20%20%3C!--%20Laptop%20screen%20--%3E%0A%20%20%3Crect%20x%3D%2212%22%20y%3D%2214%22%20width%3D%2240%22%20height%3D%2224%22%20rx%3D%223%22%20fill%3D%22%236D28D9%22%3E%3C%2Frect%3E%0A%20%20%3C!--%20Base%20--%3E%0A%20%20%3Crect%20x%3D%228%22%20y%3D%2238%22%20width%3D%2248%22%20height%3D%224%22%20rx%3D%221%22%20fill%3D%22%23FBBF24%22%3E%3C%2Frect%3E%0A%20%20%3C!--%20Checkmark%20--%3E%0A%20%20%3Cpath%20d%3D%22M24%2026l6%206%2012-12%22%20stroke%3D%22%23fff%22%20stroke-width%3D%224%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E%0A"
+    />
   </head>
   <body class="relative font-sans">
-    <button
-      title="Nâng cấp ngay!"
-      onmouseover="this.style.boxShadow='0 0 25px gold, 0 0 50px orange'; this.style.transform='scale(1.1)';"
-      onmouseout="this.style.boxShadow='0 0 15px rgba(255,215,0,0.6)'; this.style.transform='scale(1)';"
-      style="
-        position: fixed;
-        bottom: 20px;
-        left: 20px; /* Chuyển từ right sang left */
-        z-index: 999;
-        padding: 14px 28px;
-        font-size: 16px;
-        font-weight: bold;
-        color: white;
-        background: linear-gradient(45deg, gold, orange);
-        background-size: 200% 200%;
-        border: none;
-        border-radius: 30px;
-        box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
-        cursor: pointer;
-        transition: all 0.3s ease;
-        transform: scale(1);
-      "
+    <a href="premium.html"
+      ><button
+        title="Nâng cấp ngay!"
+        onmouseover="this.style.boxShadow='0 0 25px gold, 0 0 50px orange'; this.style.transform='scale(1.1)';"
+        onmouseout="this.style.boxShadow='0 0 15px rgba(255,215,0,0.6)'; this.style.transform='scale(1)';"
+        style="
+          position: fixed;
+          bottom: 20px;
+          left: 20px; /* Chuyển từ right sang left */
+          z-index: 999;
+          padding: 14px 28px;
+          font-size: 16px;
+          font-weight: bold;
+          color: white;
+          background: linear-gradient(45deg, gold, orange);
+          background-size: 200% 200%;
+          border: none;
+          border-radius: 30px;
+          box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+          cursor: pointer;
+          transition: all 0.3s ease;
+          transform: scale(1);
+        "
+      >
+        🌟 Premium
+      </button></a
     >
-      <a href="./premium.html"> 🌟 Premium</a>
-    </button>
     <!-- Chevron-up -->
     <div class="inset-0 fixed flex items-end justify-end">
       <div class="p-5">
@@ -60,34 +68,33 @@
         ></a>
       </div>
     </div>
-    <div class="navbar bg-base-100 shadow-md bg-white" id="header">
+    <div class="navbar bg-base-100 shadow-md bg-white h-20" id="header">
       <!--  -->
 
       <!--  -->
       <div class="flex-1">
         <a
           href="index.html"
-          class="btn btn-ghost text-xl absolute top-3.5 font-extralight p-5"
+          class="btn btn-ghost text-xl absolute top-3.5 font-extralight h-13"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 64 64"
-            width="64"
-            height="64"
-            role="img"
+            width="70"
+            height="70"
             aria-label="Shopme"
+            class="relative inline-block mr-2 top-1"
           >
-            <circle cx="32" cy="32" r="30" fill="#ffffff" />
-            <path d="M16 20h34l-5 18H24z" fill="#6D28D9" />
-            <circle cx="28" cy="46" r="3.8" fill="#0F172A" />
-            <circle cx="44" cy="46" r="3.8" fill="#0F172A" />
-            <rect
-              x="42"
-              y="18"
-              width="12"
-              height="8"
-              rx="2"
-              fill="#FBBF24"
-              transform="rotate(-20 48 22)"
+            <!-- Laptop screen -->
+            <rect x="12" y="14" width="40" height="24" rx="3" fill="#6D28D9" />
+            <!-- Base -->
+            <rect x="8" y="38" width="48" height="4" rx="1" fill="#FBBF24" />
+            <!-- Checkmark -->
+            <path
+              d="M24 26l6 6 12-12"
+              stroke="#fff"
+              stroke-width="4"
+              fill="none"
+              stroke-linecap="round"
             />
           </svg>
 
@@ -96,9 +103,8 @@
             type="image/png"
             sizes="32x32"
             href="/assets/favicon-32.png"
-          />
-          Shopme</a
-        >
+          />Shopme
+        </a>
       </div>
       <!-- <div class="flex-none">
         <ul class="menu menu-horizontal px-1">
@@ -136,8 +142,8 @@
         <div
           class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
         >
-          <a href="#slide4" class="btn btn-circle">❮</a>
-          <a href="#slide2" class="btn btn-circle">❯</a>
+          <a href="#slide4" class="btn btn-circle">👈</a>
+          <a href="#slide2" class="btn btn-circle">👉</a>
         </div>
       </div>
       <div id="slide2" class="carousel-item relative w-full">
@@ -148,8 +154,8 @@
         <div
           class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
         >
-          <a href="#slide1" class="btn btn-circle">❮</a>
-          <a href="#slide3" class="btn btn-circle">❯</a>
+          <a href="#slide1" class="btn btn-circle">👈</a>
+          <a href="#slide3" class="btn btn-circle">👉</a>
         </div>
       </div>
       <div id="slide3" class="carousel-item relative w-full">
@@ -160,8 +166,8 @@
         <div
           class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
         >
-          <a href="#slide2" class="btn btn-circle">❮</a>
-          <a href="#slide4" class="btn btn-circle">❯</a>
+          <a href="#slide2" class="btn btn-circle">👈</a>
+          <a href="#slide4" class="btn btn-circle">👉</a>
         </div>
       </div>
       <div id="slide4" class="carousel-item relative w-full">
@@ -172,17 +178,17 @@
         <div
           class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
         >
-          <a href="#slide3" class="btn btn-circle">❮</a>
-          <a href="#slide1" class="btn btn-circle">❯</a>
+          <a href="#slide3" class="btn btn-circle">👈</a>
+          <a href="#slide1" class="btn btn-circle">👉</a>
         </div>
       </div>
     </div>
     <!-- Card -->
     <div
-      class="items-center justify-center mt-10 grid grid-cols-3 gap-20 mx-30"
+      class="items-center justify-center mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4"
     >
       <!-- Card 1-->
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://lapvip.vn/upload/products/thumb_350x0/samsung-galaxy-book-5-pro-1741429081.png"
@@ -203,15 +209,15 @@
           </h2>
           <p>Core Ultra 7 - 256V, RAM 16GB, SSD 1TB, 16-inch 3K (No.4309)</p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">
-              <a href="./detail1.html">Buy Now</a>
-            </button>
+            <a href="detail1.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
       <!-- Card 2-->
 
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://lapvip.vn/upload/products/thumb_350x0/samsung-galaxy-book3-360-15-2023-1685608650.jpg"
@@ -229,14 +235,14 @@
           <h2 class="card-title">Samsung Galaxy Book3 360 15 (2023)</h2>
           <p>Core™ i7-1360P, RAM 16GB, SSD 512GB, FHD (No.3485)</p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">
-              <a href="./detail2.html">Buy Now</a>
-            </button>
+            <a href="detail2.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
       <!-- Card 3-->
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://lapvip.vn/upload/products/thumb_350x0/samsung-galaxy-book3-360-13-2023-1695457355.jpg"
@@ -253,14 +259,14 @@
           <h2 class="card-title">Samsung Galaxy Book3 360 13 (2023)</h2>
           <p>Core™ i7-1360P, RAM 16GB, SSD 512GB, FHD AMOLED(No.3639)</p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">
-              <a href="./detail3.html">Buy Now</a>
-            </button>
+            <a href="detail3.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
       <!-- Card 4-->
-      <div class="card bg-base-100 w-90 shadow-md top-5 left-5">
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://anphat.com.vn/media/product/50928_swift_ai_sf14_51.jpg"
@@ -280,14 +286,14 @@
             | 32GB | 1TB | Win 11 | Xanh
           </p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">
-              <a href="detail4.html">Buy Now</a>
-            </button>
+            <a href="detail4.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
       <!-- Card 5-->
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://lapvip.vn/upload/products/thumb_350x0/samsung-galaxy-book3-360-15-2023-1685608650.jpg"
@@ -303,14 +309,14 @@
           <h2 class="card-title">Samsung Galaxy Book3 360 15 (2023)</h2>
           <p>Core™ i7-1360P, RAM 16GB, SSD 512GB, FHD (No.3485)</p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">
-              <a href="detail5.html">Buy Now</a>
-            </button>
+            <a href="detail5.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
       <!-- Card 6-->
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://lapvip.vn/upload/filters_img/thumb_350x0/1144-0-1733283419.jpg"
@@ -326,14 +332,14 @@
           <h2 class="card-title">Macbook Pro 14 M4 2024</h2>
           <p>(10 - CPU, 10 - GPU) 16GB 512GB</p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">
-              <a href="detail6.html">Buy Now</a>
-            </button>
+            <a href="detail6.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
       <!-- Card 7-->
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://anphat.com.vn/media/product/45836_acer_aspire_7_a715_76g_5806___nh_qmfsv_002_3s1.jpg"
@@ -356,14 +362,14 @@
             SSD, Win 11 | Vỏ Nhôm
           </p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">
-              <a href="detail7.html">Buy Now</a>
-            </button>
+            <a href="detail7.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
       <!-- Card 8-->
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://anphat.com.vn/media/product/51571_laptop_msi_prestige_14_ai_evo_c1mg_081vn__4_.jpg"
@@ -386,14 +392,14 @@
             | Xám
           </p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">
-              <a href="detail8.html">Buy Now</a>
-            </button>
+            <a href="detail8.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
       <!-- Card 9-->
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://anphat.com.vn/media/product/51440_laptop_msi_vector_16_hx_ai_a2xwig_062vn__1_.jpg"
@@ -412,14 +418,14 @@
             1TB | Win 11 | Đen
           </p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">
-              <a href="detail9.html">Buy Now</a>
-            </button>
+            <a href="detail9.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
       <!-- Card 10-->
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://anphat.com.vn/media/product/53127_5.jpg"
@@ -442,12 +448,14 @@
             IPS 240Hz | 32GB | 1TB | Win 11 | Xám
           </p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
+            <a href="detail10.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
       <!-- Card 11-->
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://anphat.com.vn/media/product/53629_laptop_lenovo_thinkpad_x13_gen_6_21rk00alva__2_.jpg"
@@ -469,12 +477,14 @@
             32GB | 512GB | NoOS | Đen
           </p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
+            <a href="detail11.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
       <!-- Card 12-->
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://anphat.com.vn/media/product/52455_laptop_asus_vivobook_s_14_s3407va_ly046w__1_.jpg"
@@ -494,12 +504,14 @@
             60Hz | Win 11 | Bạc
           </p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
+            <a href="detail12.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
-      <!-- Card 12-->
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <!-- Card 13-->
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img src="https://anphat.com.vn/media/product/52491_" alt="Laptop" />
         </figure>
@@ -516,12 +528,14 @@
             Win 11 | Bạc
           </p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
+            <a href="detail13.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
-      <!-- Card 13-->
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <!-- Card 14-->
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://anphat.com.vn/media/product/51646_laptop_asus_vivobook_14_x1405va_ly623w__3_.jpg"
@@ -540,12 +554,14 @@
             Intel Core i5-13420H | 16GB | 512GB | 14 inch WUXGA | Win 11 | Bạc
           </p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
+            <a href="detail14.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>
-      <!-- Card 14-->
-      <div class="card bg-base-100 w-96 shadow-md top-5 left-5">
+      <!-- Card 15-->
+      <div class="card bg-base-100 w-full max-w-sm mx-auto shadow-md">
         <figure>
           <img
             src="https://anphat.com.vn/media/product/53597_laptop_hp_elitebook_6_g1i_13_bq9m3pt__1_.jpg"
@@ -565,7 +581,9 @@
             WUXGA | Cảm ứng | Win 11 | Bạc
           </p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
+            <a href="detail15.html"
+              ><button class="btn btn-primary">Buy Now</button></a
+            >
           </div>
         </div>
       </div>

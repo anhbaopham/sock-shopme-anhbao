@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sign up</title>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
       rel="stylesheet"
@@ -22,6 +22,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20width%3D%2240%22%20height%3D%2240%22%20aria-label%3D%22Shopme%22%3E%0A%20%20%3C!--%20Laptop%20screen%20--%3E%0A%20%20%3Crect%20x%3D%2212%22%20y%3D%2214%22%20width%3D%2240%22%20height%3D%2224%22%20rx%3D%223%22%20fill%3D%22%236D28D9%22%3E%3C%2Frect%3E%0A%20%20%3C!--%20Base%20--%3E%0A%20%20%3Crect%20x%3D%228%22%20y%3D%2238%22%20width%3D%2248%22%20height%3D%224%22%20rx%3D%221%22%20fill%3D%22%23FBBF24%22%3E%3C%2Frect%3E%0A%20%20%3C!--%20Checkmark%20--%3E%0A%20%20%3Cpath%20d%3D%22M24%2026l6%206%2012-12%22%20stroke%3D%22%23fff%22%20stroke-width%3D%224%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E%0A"
+    />
   </head>
   <body class="">
     <div class="navbar bg-base-100 shadow-md bg-white" id="header">
@@ -29,27 +35,28 @@
 
       <!--  -->
       <div class="flex-1">
-        <a href="index.html" class="btn btn-ghost text-xl"
+        <a
+          href="index.html"
+          class="btn btn-ghost text-xl absolute top-3.5 font-extralight h-12"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 64 64"
-            width="64"
-            height="64"
-            role="img"
+            width="70"
+            height="70"
             aria-label="Shopme"
+            class="relative inline-block mr-2 top-1"
           >
-            <circle cx="32" cy="32" r="30" fill="#ffffff" />
-            <path d="M16 20h34l-5 18H24z" fill="#6D28D9" />
-            <circle cx="28" cy="46" r="3.8" fill="#0F172A" />
-            <circle cx="44" cy="46" r="3.8" fill="#0F172A" />
-            <rect
-              x="42"
-              y="18"
-              width="12"
-              height="8"
-              rx="2"
-              fill="#FBBF24"
-              transform="rotate(-20 48 22)"
+            <!-- Laptop screen -->
+            <rect x="12" y="14" width="40" height="24" rx="3" fill="#6D28D9" />
+            <!-- Base -->
+            <rect x="8" y="38" width="48" height="4" rx="1" fill="#FBBF24" />
+            <!-- Checkmark -->
+            <path
+              d="M24 26l6 6 12-12"
+              stroke="#fff"
+              stroke-width="4"
+              fill="none"
+              stroke-linecap="round"
             />
           </svg>
 
@@ -58,14 +65,13 @@
             type="image/png"
             sizes="32x32"
             href="/assets/favicon-32.png"
-          />
-          Shopme</a
-        >
+          />Shopme
+        </a>
       </div>
     </div>
     <section class="grid grid-cols-1 lg:grid-cols-2">
       <div
-        class="w-full px-4 py-20 mx-auto bg-white xl:py-32 md:w-3/5 lg:w-4/5 xl:w-3/5"
+        class="w-full px-2 py-20 mx-auto xl:py-32 md:w-3/5 lg:w-4/5 xl:w-3/5"
       >
         <h1
           class="mb-4 -mt-3 text-2xl font-extrabold leading-snug tracking-tight text-left text-gray-900 md:text-4xl"

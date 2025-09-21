@@ -22,13 +22,48 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20width%3D%2240%22%20height%3D%2240%22%20aria-label%3D%22Shopme%22%3E%0A%20%20%3C!--%20Laptop%20screen%20--%3E%0A%20%20%3Crect%20x%3D%2212%22%20y%3D%2214%22%20width%3D%2240%22%20height%3D%2224%22%20rx%3D%223%22%20fill%3D%22%236D28D9%22%3E%3C%2Frect%3E%0A%20%20%3C!--%20Base%20--%3E%0A%20%20%3Crect%20x%3D%228%22%20y%3D%2238%22%20width%3D%2248%22%20height%3D%224%22%20rx%3D%221%22%20fill%3D%22%23FBBF24%22%3E%3C%2Frect%3E%0A%20%20%3C!--%20Checkmark%20--%3E%0A%20%20%3Cpath%20d%3D%22M24%2026l6%206%2012-12%22%20stroke%3D%22%23fff%22%20stroke-width%3D%224%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E%0A"
+    />
   </head>
   <body>
     <div class="navbar bg-base-100 shadow-sm bg-white">
       <div class="flex-1">
-        <a href="./index.html" class="btn btn-ghost font-extralight text-xl"
-          >Shopme</a
-        >
+        <a
+          href="index.html"
+          class="btn btn-ghost text-xl absolute top-3.5 font-extralight h-13"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            width="70"
+            height="70"
+            aria-label="Shopme"
+            class="relative inline-block mr-2 top-1"
+          >
+            <!-- Laptop screen -->
+            <rect x="12" y="14" width="40" height="24" rx="3" fill="#6D28D9" />
+            <!-- Base -->
+            <rect x="8" y="38" width="48" height="4" rx="1" fill="#FBBF24" />
+            <!-- Checkmark -->
+            <path
+              d="M24 26l6 6 12-12"
+              stroke="#fff"
+              stroke-width="4"
+              fill="none"
+              stroke-linecap="round"
+            />
+          </svg>
+
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/assets/favicon-32.png"
+          />Shopme
+        </a>
       </div>
       <div class="flex-none">
         <ul class="menu menu-horizontal px-1">
@@ -47,7 +82,7 @@
     </div>
     <div class="main flex container justify-start">
       <div
-        class="card lg:card-side bg-base-100 shadow-xl mt-10 ml-70 p-10 pr-60"
+        class="card lg:card-side bg-base-100 shadow-2xl mt-10 ml-80 p-10 pr-10"
       >
         <figure class="w-100 flex-shrink-0">
           <img
@@ -58,7 +93,10 @@
         </figure>
         <!-- Nôi dung -->
         <div class="card-body flex flex-col max-w-xl justify-between">
-          <h2 class="card-title">Laptop MSI Prestige 14 AI Evo</h2>
+          <h2 class="card-title">
+            Laptop MSI Prestige 14 AI Evo
+            <div class="badge badge-secondary">NEW</div>
+          </h2>
           <p>
             Intel Core Ultra 5 125H | 14 inch 2.8K OLED | 16GB | 512GB | Win 11
             | Xám
